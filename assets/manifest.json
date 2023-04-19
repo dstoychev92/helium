@@ -1,0 +1,14 @@
+{
+  "name": "Helium",
+  "short_name": "Helium",
+  "description": "A Shopify theme environment from scratch ⚙️, with Online Store 2.0 features. Built with performance ⚡️ and best practices in mind..",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "start_url": "https://helium.idbakkasse.com",
+  "display": "standalone",
+  "related_applications": [
+    {
+      "platform": "web"
+    }
+  ]
+}

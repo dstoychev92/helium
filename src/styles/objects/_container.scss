@@ -1,0 +1,40 @@
+// ==========================================================================
+// ## OBJECTS: CONTAINER
+// ==========================================================================
+
+/// @content Object classes for diffrentes container sizes.
+///
+///   .container {}          - Base container.
+///   .container.-small {}   - Small container.
+///   and others, add as you wish...
+///
+
+.container {
+  width: 100%;
+  margin: {
+    left: auto;
+    right: auto;
+    top: 0;
+    bottom: 0;
+  }
+
+  &.-small {
+    padding-left: rem(8px);
+    padding-right: rem(8px);
+  }
+
+  &,
+  &.-medium {
+    padding-left: rem(16px);
+    padding-right: rem(16px);
+  }
+
+  &.-large {
+    padding-left: rem(32px);
+    padding-right: rem(32px);
+  }
+
+  &.-narrow {
+    max-width: 30rem;
+  }
+}

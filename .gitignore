@@ -1,0 +1,23 @@
+# Misc
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+ehthumbs.db
+Thumbs.db
+
+# Dependencies
+node_modules
+deploy.log
+npm-debug.log
+.env
+.env.*
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Others
+*.sass-cache*
+.cache/*
+_site
+/.idea

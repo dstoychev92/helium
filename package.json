@@ -1,0 +1,32 @@
+{
+  "name": "helium",
+  "version": "2.0.0",
+  "description": "Modern Shopify development workflow, with Online Store 2.0 features and built with performance and best practices in mind..",
+  "repository": "blanklob/helium",
+  "author": "Blanklob <hello@blanklob.com>",
+  "license": "MIT",
+  "keywords": [
+    "helium",
+    "shopify",
+    "starter",
+    "boilerplate",
+    "themes"
+  ],
+  "browserslist": [
+    "defaults"
+  ],
+  "scripts": {
+    "serve": "helium serve",
+    "watch": "helium watch",
+    "build": "helium build",
+    "lint": "helium lint"
+  },
+  "devDependencies": {
+    "@blanklob/helium": "^0.1.5"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=7.0.0"
+  }
+}

@@ -1,0 +1,15 @@
+{{ 'section-main-article.css' | asset_url | stylesheet_tag }}
+
+<div class="article container -medium">
+  {%- render 'component-article-card' -%}
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.article.name",
+  "tag": "article",
+  "settings": [
+
+  ]
+}
+{% endschema %}
